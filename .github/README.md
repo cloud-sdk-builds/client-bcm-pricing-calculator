@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-bcm-pricing-calculator`](https://www.npmjs.com/package/@aws-sdk/client-bcm-pricing-calculator/v/3.830.0).
+[`@aws-sdk/client-bcm-pricing-calculator`](https://www.npmjs.com/package/@aws-sdk/client-bcm-pricing-calculator/v/3.835.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.830.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.835.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-48ooE2oamV2g+NJ38nwSOmHjTEov6pL2Q8un8uvxA+wPWptzuEP8vEey44JpqXdl
+sha384-nWBY3RQuyG4Au+AvUH9tY5Kcm5KIK/9ddjdbL4Bvs4ByY6EPFJ0fGNJo7jxEZ83a
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-bcm-pricing-calculator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.830.0/index.min.mjs"
+            "@aws-sdk/client-bcm-pricing-calculator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.835.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.830.0/index.min.mjs": "sha384-48ooE2oamV2g+NJ38nwSOmHjTEov6pL2Q8un8uvxA+wPWptzuEP8vEey44JpqXdl"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.835.0/index.min.mjs": "sha384-nWBY3RQuyG4Au+AvUH9tY5Kcm5KIK/9ddjdbL4Bvs4ByY6EPFJ0fGNJo7jxEZ83a"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-bcm-pricing-calculator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.830.0/index.min.mjs"
+                        "@aws-sdk/client-bcm-pricing-calculator": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.835.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.830.0/index.min.mjs": "sha384-48ooE2oamV2g+NJ38nwSOmHjTEov6pL2Q8un8uvxA+wPWptzuEP8vEey44JpqXdl"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-bcm-pricing-calculator@3.835.0/index.min.mjs": "sha384-nWBY3RQuyG4Au+AvUH9tY5Kcm5KIK/9ddjdbL4Bvs4ByY6EPFJ0fGNJo7jxEZ83a"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.830.0`)
+* Always pin to a specific version (`@3.835.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-bcm-pricing-calculator/blob/refs/tags/3.830.0/LICENSE
+https://github.com/cloud-sdk-builds/client-bcm-pricing-calculator/blob/refs/tags/3.835.0/LICENSE
 ```
 
 ---
